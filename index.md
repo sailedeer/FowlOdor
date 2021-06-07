@@ -1,36 +1,37 @@
-## Welcome to GitHub Pages
+# Introduction
+## What is the problem?
+## Datasets used
 
-You can use the [editor on GitHub](https://github.com/sailedeer/bird-id-kaggle/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Approach
+## Techniques
+## Problems
+## Why this approach is best
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Experiments
+## Experiment 1
+## Experiment 2
+## Experiment 3
+## Experiment N
 
-### Markdown
+# Results
+## Experiment 1
+### Data
+### Analysis
+## Experiment 2
+### Data
+### Analysis
+## Experiment 3
+### Data
+### Analysis
+## Experiment N
+### Data
+### Analysis
+## Conclusion
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sailedeer/bird-id-kaggle/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+# Discussion
+## What worked well/what didn't, and why?
+## Did you learn anything?
+## Can anything in this project be applied more broadly?
 
 ### Support or Contact
 
