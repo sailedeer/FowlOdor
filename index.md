@@ -10,7 +10,7 @@ Our final project was to design a bird classification system which takes an imag
 
 
 # Approach
-1. We started with resnet first, in order to develop some understanding of how changing the hyperparameters would influence the trained model. 
+1. Do transfer learning on resnet in order to develop ideas of hyperparameters
 ## Techniques
 * Convolution Neural Network
 * Transfer Learning
