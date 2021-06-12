@@ -45,7 +45,7 @@ While our resnet model was able to train to 93.0% training accuracy, it turned o
 ## ntsnet
 ### Data
 Loss graph for ntsnet model:
-![](ntsnet.png)
+![](ntsnet.PNG)
 
 ### Analysis
 The losses generated did not follow a pattern that we were very familiar with. The testing and training accuracies were shockingly low, especially considering that we achieved an actual prediction accuracy of 80% on Kaggle. Much of the code was inspired by the author’s github repository and fitted to the structure of the Colab Notebook and our data set, so we’re not quite sure where the discrepancy is. The paper which this model is based on claims a testing accuracy of ~96% so our model vastly underperforms relative to that benchmark. We suspect that this is the case because our dataset doesn’t provide any natural language descriptors, which causes the accuracy to decay significantly. It is possible that this is what leads to such bizarre cross-entropy loss as well.
