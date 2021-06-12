@@ -45,7 +45,7 @@ While our resnet model was able to train to 93.0% training accuracy, it turned o
 ## ntsnet
 ### Data
 Loss graph for ntsnet model:
-![](ntsnet.png)
+![](ntsnet.PNG)
 
 ### Analysis
 The losses generated did not follow a pattern that we were very familiar with. The testing and training accuracies were shockingly low, especially considering that we achieved an actual prediction accuracy of 80% on Kaggle. Much of the code was inspired by the author’s github repository and fitted to the structure of the Colab Notebook and our data set, so we’re not quite sure where the discrepancy is. The paper which this model is based on claims a testing accuracy of ~96% so our model vastly underperforms relative to that benchmark. We suspect that this is the case because our dataset doesn’t provide any natural language descriptors, which causes the accuracy to decay significantly. It is possible that this is what leads to such bizarre cross-entropy loss as well.
@@ -58,10 +58,10 @@ Yes, machine learning is a very complex and ever-evolving field. When using neur
 ## Can anything in this project be applied more broadly?
 It would be interesting to see how multimodal neural networks could be applied more generally to everyday objects and not just birds. Namely, could a neural net like ntsnet be designed that could operate over a dataset like ImageNet? Certainly, the dataset would have to be augmented significantly (and by hand) with natural language descriptions of all the objects in ImageNet, which could take a long time. However, ntsnet achieved record accuracy on its dataset, so it would be interesting to see if a similar approach would behave well on more generalized images.
 
+Transfer learning is widely applicable in the study of machine learning, so other efforts could and should certainly use it. In fact, ntsnet uses a pretrained resnet50 under the hood as part of its two-path network. CNNs and data augmentation are also ubiquitous, so these techniques could certainly be applied elsewhere with ease.
+
 # Video
 [CSE 455 Final Project Video](https://youtu.be/XuMRysdbwEU)
 
 # Repository
 [GitHub Repository](https://github.com/sailedeer/FowlOdor/tree/main)
-
-Transfer learning is widely applicable in the study of machine learning, so other efforts could and should certainly use it. In fact, ntsnet uses a pretrained resnet50 under the hood as part of its two-path network. CNNs and data augmentation are also ubiquitous, so these techniques could certainly be applied elsewhere with ease.
