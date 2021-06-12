@@ -61,4 +61,7 @@ It would be interesting to see how multimodal neural networks could be applied m
 # Video
 [CSE 455 Final Project Video](https://youtu.be/XuMRysdbwEU)
 
+# Repository
+[GitHub Repository](https://github.com/sailedeer/FowlOdor/tree/main)
+
 Transfer learning is widely applicable in the study of machine learning, so other efforts could and should certainly use it. In fact, ntsnet uses a pretrained resnet50 under the hood as part of its two-path network. CNNs and data augmentation are also ubiquitous, so these techniques could certainly be applied elsewhere with ease.
